@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scenes.StatsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="700.0" stroke="BLACK" strokeType="INSIDE" width="700.0" />
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Money.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="200.0" layoutY="570.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Menu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="10.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/record.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="200.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/shop.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="10.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Bulltesdamege.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="10.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/bulltesSpeed.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="bullDamage" alignment="CENTER" editable="false" focusTraversable="false" layoutX="320.0" layoutY="340.0" opacity="0.5" pickOnBounds="false" prefHeight="100.0" prefWidth="100.0" text="10">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="bullSpeed" alignment="CENTER" editable="false" focusTraversable="false" layoutX="320.0" layoutY="450.0" opacity="0.5" prefHeight="100.0" prefWidth="100.0" text="1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="430.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/buy.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="430.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/buy.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="545.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/cost.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="damegeCost" alignment="CENTER" editable="false" focusTraversable="false" layoutX="545.0" layoutY="340.0" opacity="0.5" prefHeight="100.0" prefWidth="100.0" text="10">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="speedCost" alignment="CENTER" editable="false" focusTraversable="false" layoutX="545.0" layoutY="450.0" opacity="0.5" prefHeight="100.0" prefWidth="100.0" text="10">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="money" alignment="CENTER" editable="false" focusTraversable="false" layoutX="315.0" layoutY="10.0" opacity="0.5" prefHeight="100.0" prefWidth="300.0" text="0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="record" alignment="CENTER" editable="false" focusTraversable="false" layoutX="315.0" layoutY="120.0" opacity="0.5" prefHeight="100.0" prefWidth="300.0" text="0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <Button layoutX="430.0" layoutY="340.0" mnemonicParsing="false" onAction="#buyDamage" opacity="0.0" prefHeight="100.0" prefWidth="100.0" text="Button" />
+      <Button layoutX="430.0" layoutY="450.0" mnemonicParsing="false" onAction="#buySpeed" opacity="0.0" prefHeight="100.0" prefWidth="100.0" text="Button" />
+      <Button layoutX="200.0" layoutY="570.0" mnemonicParsing="false" onAction="#menu" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+   </children>
+</AnchorPane>

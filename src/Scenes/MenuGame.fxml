@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scenes.MenuControler">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="700.0" stroke="BLACK" strokeType="INSIDE" width="700.0" />
+      <ImageView fitHeight="100.0" fitWidth="500.0" layoutX="100.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/SpaceShoter.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="200.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Start.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="100.0" fitWidth="500.0" layoutX="100.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/statsandshop.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="200.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/EXIT.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="200.0" layoutY="200.0" mnemonicParsing="false" onAction="#startGame" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="100.0" layoutY="350.0" mnemonicParsing="false" onAction="#stat" opacity="0.0" prefHeight="100.0" prefWidth="500.0" text="Button" />
+      <Button layoutX="200.0" layoutY="500.0" mnemonicParsing="false" onAction="#exit" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+   </children>
+</AnchorPane>
